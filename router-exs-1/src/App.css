@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+    /* font-family: 'Archivo Black', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav&display=swap');
+    /* font-family: 'Yantramanav', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@600&display=swap');
+    /* font-family: 'Spectral', sans-serif */
+
+* {
+    box-sizing: border-box;
+}
+
+
+.vending-machine-container {
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 2rem;
+    text-align: center;
+    background-color: #dbb8ab;
+    background-image: linear-gradient(315deg, hsl(16, 35%, 72%) 0%, #ba8d75 74%);
+    height: 35rem;
+    width: 40rem;
+    border-radius: 25px;
+}
+
+.header {
+    font-size: 3rem;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.subheader {
+    font-size: 2rem;
+    font-family: 'Yantramanav', sans-serif
+}
+
+.sub-header {
+    font-size: 2rem;
+}
+
+.coke-link, .drpepper-link, .pepsi-link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Spectral', sans-serif
+}
+
+.coke-div, .drpepper-div, .pepsi-div {
+    margin: 0 auto;
+    font-size: 2rem;
+    max-width: 30%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    transition: ease-in-out 0.1s;
+}
+
+.coke-div:hover, .drpepper-div:hover, .pepsi-div:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
+.coke-div {
+    background-color: #F40009;
+}
+
+.drpepper-div {
+    background-color: #890024;
+}
+
+.pepsi-div {
+    background-color: #004B93;
+}
+
+.dispensed-container {
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 2rem;
+    text-align: center;
+    background-color: #ba9a8e;
+    background-image: linear-gradient(315deg, #ba9a8e 0%, #96705b 74%);
+    height: 35rem;
+    width: 40rem;
+    border-radius: 25px;
+
+}
+
+.dispensed-header {
+    font-size: 3rem;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.home-link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Yantramanav', sans-serif
+}
+
+.home-link-div {
+    margin: 0 auto;
+    font-size: 2rem;
+    max-width: 30%;
+    border-radius: 10px;
+    background-color: darkslateblue;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    transition: ease-in-out 0.1s;
+}
+
+.home-link-div:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
